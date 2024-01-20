@@ -1,0 +1,15 @@
+version: "3.8"
+
+services:
+  homehive:
+    image: homehive:dev
+    container_name: homehive_container
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=development
+    command: npm run dev
+    volumes:
+      - ./homehive:/app
+    working_dir: /app
+    restart: always

@@ -58,9 +58,9 @@ Before the hackathon closes, here's what we're aiming to accomplish:
 - **Finalize Passkey Integration**: Ensuring secure and convenient user access with passkey technology. 🔐
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#)
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/calebcoverdale/HomeHive)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/calebcoverdale/HomeHive/)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/calebcoverdale/HomeHive?devcontainer_path=devcontainer.json)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/calebcoverdale/HomeHive/frontend/homehive/)
+[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/calebcoverdale/HomeHive/frontend/homehive)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/calebcoverdale/HomeHive/frontend/homehive?devcontainer_path=devcontainer.json)
 
 
 CrackedDevs Hackathon 🏆

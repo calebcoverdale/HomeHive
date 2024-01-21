@@ -1,4 +1,5 @@
 ![Version](https://img.shields.io/badge/version-Hackathon-blue)
+[![Deploy Astro site to Pages](https://github.com/calebcoverdale/HomeHive/actions/workflows/astro.yml/badge.svg)](https://github.com/calebcoverdale/HomeHive/actions/workflows/astro.yml)
 
 # HomeHive 🐝🏠 - CrackedDevs Hackathon Solo Project
 

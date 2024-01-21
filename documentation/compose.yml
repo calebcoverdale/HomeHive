@@ -1,0 +1,16 @@
+services:
+    documentation:
+        container_name: HomeHiveDocumentation
+        image: homehivedocumentation:latest
+        build:
+            context: .
+            dockerfile: Dockerfile
+        networks:
+            - documentation
+        expose:
+            - 8000
+        ports: 
+            - 8000:8000
+networks:
+    documentation:
+        external: true

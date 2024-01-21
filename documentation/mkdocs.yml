@@ -1,0 +1,21 @@
+site_name: HomeHive Documentation
+site_description: HomeHive Documentation
+site_url: "https://docs.homehive.club"
+theme:
+  name: material
+  logo: images/logo.webp
+  features:
+    - navigation.sections
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.footer
+  plugins:
+    - search
+    - optimize
+    - search
+    - search.sort
+    - offline
+nav:
+  - Welcome: index.md

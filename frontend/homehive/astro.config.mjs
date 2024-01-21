@@ -1,16 +1,12 @@
-import { defineConfig } from 'astro/config';
-import auth from "auth-astro";
+import { defineConfig } from "astro/config";
 import cloudflare from "@astrojs/cloudflare";
+import react from "@astrojs/react";
 
-import * as Sentry from '@sentry/browser';
-import spotlightjs from "@spotlightjs/astro";
-
-
+import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [spotlightjs(), auth()],
   output: "server",
-  adapter: cloudflare()
+  renderers: [react],
+  integrations: [react(), tailwind()]
 });
-

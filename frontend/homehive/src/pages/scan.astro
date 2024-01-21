@@ -1,11 +1,9 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import Card from "../components/Card.astro";
-import ExampleComponent from "../components/ExampleComponent.jsx";
-import ModernCard from "../components/SimpleCard.jsx";
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout title="Scan">
   <main>
     <svg
       class="astro-a"
@@ -35,31 +33,7 @@ import ModernCard from "../components/SimpleCard.jsx";
         </linearGradient>
       </defs>
     </svg>
-    <h1>Welcome to <span class="text-gradient">Astro</span></h1>
-    <ul role="list" class="link-card-grid">
-      <Card
-        href=""
-        body="See what's in your inventory. 🧑‍🚀"
-        imageUrl="images/inventory.png"
-      />
-      <Card
-        href="/scan"
-        title="Scan"
-        body="Easily add items to your inventory using the scan feature."
-        imageUrl="/images/scan.webp"
-      />
-
-      <Card
-        href="https://astro.build/themes/"
-        title="Themes"
-        body="Explore a galaxy of community-built starter themes."
-      />
-      <Card
-        href="https://astro.build/chat/"
-        title="Community"
-        body="Come say hi to our amazing Discord community. ❤️"
-      />
-    </ul>
+    <h1><span class="text-gradient">Scan 📡</span></h1>
   </main>
 </Layout>
 

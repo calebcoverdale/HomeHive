@@ -1,0 +1,18 @@
+version: "3.7"
+
+services:
+  homehive:
+    build:
+      context: ./
+      target: development
+    ports:
+      - "3000:3000" # Assuming Astro runs on port 3000
+    entrypoint:
+      ["npm", "run", "dev", "--", "--host", "0.0.0.0", "--port", "3000"]
+    develop:
+      watch:
+        - action: sync
+          path: ./
+          target: /app
+          ignore:
+            - node_modules/

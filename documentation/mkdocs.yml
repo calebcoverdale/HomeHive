@@ -19,3 +19,4 @@ theme:
     - offline
 nav:
   - Welcome: index.md
+  - Database Schema: database_schema.md

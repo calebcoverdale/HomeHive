@@ -1,5 +1,13 @@
 ![Version](https://img.shields.io/badge/version-Hackathon-blue)
 
+
+# HomeHive 🐝🏠 - CrackedDevs Hackathon Solo Project
+
+Welcome to HomeHive, my personal journey in the CrackedDevs Hackathon to revolutionize home inventory management using the latest tech.
+
+
+## Quick Precursor
+
 Before ChatGPT takes my thunder of better grammar, and language I thought I would put in my own words here: 
 
 Hello,
@@ -23,15 +31,13 @@ While the ChatGPT generated stuff below is not really complete, I will get these
 Run this in GitPod and you can use `npm run dev` to start the instance for the frontend. Images to follow soon. 
 
 
+**So now I present Caleb's CrackedDevs Hackathon submission  🏆 **
 
-So now I present my CrackedDevs Hackathon submission 🏆 
+---
 
+# HomeHive 🐝🏠 
 
-# HomeHive 🐝🏠 - CrackedDevs Hackathon Solo Project
-
-
-
-Welcome to HomeHive, my personal journey in the CrackedDevs Hackathon to revolutionize home inventory management using the latest tech.
+![HomeHive Banner](./frontend/homehive/public/images/HomeHive.jpg)
 
 ## HomeHive's Milestones 🌟
 

@@ -1,12 +1,12 @@
 import { defineConfig } from "astro/config";
-import cloudflare from "@astrojs/cloudflare";
 import react from "@astrojs/react";
 
 import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-  output: "server",
+  site: 'https://calebcoverdale.github.io',
+  base: '/HomeHive',
   renderers: [react],
-  integrations: [react(), tailwind()]
+  integrations: [react(), tailwind()],
 });

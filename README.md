@@ -26,9 +26,11 @@ I want to always do more with something out of my comfort zone, but I know I nee
 - TypeORM. I have used Prisma in other projects, but I wanted to see the difference in using something more lightweight.
 - Authentication using passkey. I haven't spent enough time on this yet with my project, but I have some great structure ready to implement some new libraries I found along the way.
 
-While the ChatGPT generated stuff below is not really complete, I will get these things done in time, but for now this was a great way to spend my evening last night, and tonight. I reviewed my skills, and got ChatGPT to be witty along the way with my commits. Can't do that in production (as much).
+While the ChatGPT generated stuff below is not really complete, I will get these things done in time, but for now this was a great way to spend my evening last night, and tonight. I took time to reflect on the skills I have grown in the last few years, and got ChatGPT to be witty along the way with my commits. Can't do that in production (as much).
 
-Run this in GitPod and you can use `npm run dev` to start the instance for the frontend. Images to follow soon. 
+Run this in GitPod, and you can use `npm run dev` in the frontend/homehive folder to start the instance for the frontend. 
+
+Images to follow shortly. 
 
 
 **So now I present Caleb's CrackedDevs Hackathon submission  🏆 **
